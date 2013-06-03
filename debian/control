@@ -1,0 +1,15 @@
+Source: postgresql-zlib
+Section: unknown
+Priority: extra
+Maintainer: Denis Orlikhin <qbikk@ya.ru>
+Build-Depends: debhelper (>= 8.0.0), postgresql-server-dev-9.3 | postgresql-server-dev-9.2 | postgresql-server-dev-9.1
+Standards-Version: 3.9.2
+Homepage: https://github.com/overplumbum/postgresql-zlib
+Vcs-Git: git://github.com/overplumbum/postgresql-zlib.git
+Vcs-Browser: https://github.com/overplumbum/postgresql-zlib
+
+Package: postgresql-zlib
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, postgresql-common
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
